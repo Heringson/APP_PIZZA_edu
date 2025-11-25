@@ -41,29 +41,45 @@
    * CORS
    * API REST
 ## 📂 Estrutura de Pastas 📂 
-      /front-end
-      ├── /src
-      │ ├── index.tsx
-      │ ├── App.tsx
-      │ ├── /componentes
-      │ ├── /páginas
-      │ ├── /ganchos
-      │ ├── /serviços
-      ├── index.html
-      /backend
-      ├── /src
-      │ ├── server.ts
-      │ ├── database.ts
-      │ ├── nfeService.ts
-      │ ├── types.ts
-      ├── package.json
-      ├── tsconfig.json
-      /sistema_Pizzaria_p1-main
-      ├── /csv
-      │ ├── ativos.csv
-      │ ├── historic.csv
-      ativos.csv
-      histórico.csv
+    /meu-projeto
+    │
+    ├── backend/
+    │   ├── src/
+    │   │   ├── controllers/
+    │   │   ├── models/
+    │   │   ├── routes/
+    │   │   ├── services/
+    │   │   ├── utils/
+    │   │   └── index.ts
+    │   │
+    │   ├── package.json
+    │   ├── tsconfig.json
+    │   └── .env
+    │
+    ├── frontend/
+    │   ├── public/
+    │   │   ├── img/
+    │   │   └── favicon.ico
+    │   │
+    │   ├── src/
+    │   │   ├── components/
+    │   │   ├── pages/
+    │   │   ├── services/
+    │   │   ├── hooks/
+    │   │   ├── context/
+    │   │   ├── styles/
+    │   │   ├── utils/
+    │   │   ├── App.tsx
+    │   │   └── main.tsx
+    │   │
+    │   ├── index.html
+    │   ├── tsconfig.json
+    │   ├── vite.config.ts
+    │   └── package.json
+    │
+    ├── README.md
+    └── .gitignore
+
 
 ## 🛠️ Instalação
    1. Backend
